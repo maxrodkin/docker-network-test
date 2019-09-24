@@ -3,8 +3,5 @@ services:
  ping:
   build: ./rodkin_ping_yaru
   image: rodkin_ping_yaru
-  networks:
-   - frontend
-networks:
-  frontend:
-   external: true
+  network_mode: host
+
