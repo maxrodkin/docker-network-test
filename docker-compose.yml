@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+ ping:
+  build: ./rodkin_ping_yaru
+  image: rodkin_ping_yaru
+  networks:
+   - frontend
+networks:
+  frontend:
+   external: true
