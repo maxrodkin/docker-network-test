@@ -3,4 +3,8 @@ services:
  ping:
   build: ./rodkin_ping_yaru
   image: rodkin_ping_yaru
-
+  networks:
+   - frontend
+networks:
+  frontend:
+    internal: false
