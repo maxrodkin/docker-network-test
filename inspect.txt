@@ -1,7 +1,7 @@
 [
     {
-        "Id": "0186afa220d28181b1594c52f6815488b77245c8643b194225e9c86d7b5429d8",
-        "Created": "2019-09-24T08:09:04.004970906Z",
+        "Id": "e8f7b884a5423755f8a0a8090b527e398beeb032b7fcb08b13442fbb0370acdc",
+        "Created": "2019-09-24T08:31:34.938659812Z",
         "Path": "/usr/sbin/traceroute",
         "Args": [
             "8.8.8.8"
@@ -16,14 +16,14 @@
             "Pid": 0,
             "ExitCode": 0,
             "Error": "",
-            "StartedAt": "2019-09-24T08:09:05.063275097Z",
-            "FinishedAt": "2019-09-24T08:09:40.113736186Z"
+            "StartedAt": "2019-09-24T08:31:35.586097273Z",
+            "FinishedAt": "2019-09-24T08:31:36.037881247Z"
         },
         "Image": "sha256:5bc06b1a1205cd8b6e75b21fadbf2155cd3a073f665c3f80cf76adb3d7ff83d0",
-        "ResolvConfPath": "/var/lib/docker/containers/0186afa220d28181b1594c52f6815488b77245c8643b194225e9c86d7b5429d8/resolv.conf",
-        "HostnamePath": "/var/lib/docker/containers/0186afa220d28181b1594c52f6815488b77245c8643b194225e9c86d7b5429d8/hostname",
-        "HostsPath": "/var/lib/docker/containers/0186afa220d28181b1594c52f6815488b77245c8643b194225e9c86d7b5429d8/hosts",
-        "LogPath": "/var/lib/docker/containers/0186afa220d28181b1594c52f6815488b77245c8643b194225e9c86d7b5429d8/0186afa220d28181b1594c52f6815488b77245c8643b194225e9c86d7b5429d8-json.log",
+        "ResolvConfPath": "/var/lib/docker/containers/e8f7b884a5423755f8a0a8090b527e398beeb032b7fcb08b13442fbb0370acdc/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/e8f7b884a5423755f8a0a8090b527e398beeb032b7fcb08b13442fbb0370acdc/hostname",
+        "HostsPath": "/var/lib/docker/containers/e8f7b884a5423755f8a0a8090b527e398beeb032b7fcb08b13442fbb0370acdc/hosts",
+        "LogPath": "/var/lib/docker/containers/e8f7b884a5423755f8a0a8090b527e398beeb032b7fcb08b13442fbb0370acdc/e8f7b884a5423755f8a0a8090b527e398beeb032b7fcb08b13442fbb0370acdc-json.log",
         "Name": "/docker-network-test_ping_1",
         "RestartCount": 0,
         "Driver": "overlay2",
@@ -33,26 +33,26 @@
         "AppArmorProfile": "docker-default",
         "ExecIDs": null,
         "HostConfig": {
-            "Binds": [],
+            "Binds": null,
             "ContainerIDFile": "",
             "LogConfig": {
                 "Type": "json-file",
                 "Config": {}
             },
-            "NetworkMode": "docker-network-test_default",
+            "NetworkMode": "default",
             "PortBindings": {},
             "RestartPolicy": {
-                "Name": "",
+                "Name": "no",
                 "MaximumRetryCount": 0
             },
             "AutoRemove": false,
             "VolumeDriver": "",
-            "VolumesFrom": [],
+            "VolumesFrom": null,
             "CapAdd": null,
             "CapDrop": null,
-            "Dns": null,
-            "DnsOptions": null,
-            "DnsSearch": null,
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
             "ExtraHosts": null,
             "GroupAdd": null,
             "IpcMode": "shareable",
@@ -78,7 +78,7 @@
             "NanoCpus": 0,
             "CgroupParent": "",
             "BlkioWeight": 0,
-            "BlkioWeightDevice": null,
+            "BlkioWeightDevice": [],
             "BlkioDeviceReadBps": null,
             "BlkioDeviceWriteBps": null,
             "BlkioDeviceReadIOps": null,
@@ -89,7 +89,7 @@
             "CpuRealtimeRuntime": 0,
             "CpusetCpus": "",
             "CpusetMems": "",
-            "Devices": null,
+            "Devices": [],
             "DeviceCgroupRules": null,
             "DiskQuota": 0,
             "KernelMemory": 0,
@@ -125,24 +125,24 @@
         },
         "GraphDriver": {
             "Data": {
-                "LowerDir": "/var/lib/docker/overlay2/acf90f9f21f8cc9236d4eb5ee9a74a0538049454522dc89e7414303fff95fe27-init/diff:/var/lib/docker/overlay2/a5445cdfbcf6be499a17945624f350c52a25fef797d1ad925c17adc1b4ea26dd/diff:/var/lib/docker/overlay2/d68d5162c10ec465fd0e958fad32a357a1ede560fe57b8bb4479507fbaafde77/diff:/var/lib/docker/overlay2/a08cf0e66506e4161d26d8acb8fa8d686d0f4366e865a41370b6d4f021c5c0c5/diff:/var/lib/docker/overlay2/6bb04924fb82959e2d48b903e887b1619b19c443263d3b24aab40ffbb1059d76/diff:/var/lib/docker/overlay2/79adc8a5434e1638e8fd9da640213259506ca1a22fd1ac832195b20221cb43da/diff:/var/lib/docker/overlay2/baa705b5de681a559bfc76bea208b0baa8a989ec642313e81752d48ab2794622/diff",
-                "MergedDir": "/var/lib/docker/overlay2/acf90f9f21f8cc9236d4eb5ee9a74a0538049454522dc89e7414303fff95fe27/merged",
-                "UpperDir": "/var/lib/docker/overlay2/acf90f9f21f8cc9236d4eb5ee9a74a0538049454522dc89e7414303fff95fe27/diff",
-                "WorkDir": "/var/lib/docker/overlay2/acf90f9f21f8cc9236d4eb5ee9a74a0538049454522dc89e7414303fff95fe27/work"
+                "LowerDir": "/var/lib/docker/overlay2/570f29e134367ca8c3fc563764afddeae97a63aa3fcf4a244332a9b0c5097e6b-init/diff:/var/lib/docker/overlay2/a5445cdfbcf6be499a17945624f350c52a25fef797d1ad925c17adc1b4ea26dd/diff:/var/lib/docker/overlay2/d68d5162c10ec465fd0e958fad32a357a1ede560fe57b8bb4479507fbaafde77/diff:/var/lib/docker/overlay2/a08cf0e66506e4161d26d8acb8fa8d686d0f4366e865a41370b6d4f021c5c0c5/diff:/var/lib/docker/overlay2/6bb04924fb82959e2d48b903e887b1619b19c443263d3b24aab40ffbb1059d76/diff:/var/lib/docker/overlay2/79adc8a5434e1638e8fd9da640213259506ca1a22fd1ac832195b20221cb43da/diff:/var/lib/docker/overlay2/baa705b5de681a559bfc76bea208b0baa8a989ec642313e81752d48ab2794622/diff",
+                "MergedDir": "/var/lib/docker/overlay2/570f29e134367ca8c3fc563764afddeae97a63aa3fcf4a244332a9b0c5097e6b/merged",
+                "UpperDir": "/var/lib/docker/overlay2/570f29e134367ca8c3fc563764afddeae97a63aa3fcf4a244332a9b0c5097e6b/diff",
+                "WorkDir": "/var/lib/docker/overlay2/570f29e134367ca8c3fc563764afddeae97a63aa3fcf4a244332a9b0c5097e6b/work"
             },
             "Name": "overlay2"
         },
         "Mounts": [],
         "Config": {
-            "Hostname": "0186afa220d2",
+            "Hostname": "e8f7b884a542",
             "Domainname": "",
             "User": "",
-            "AttachStdin": false,
-            "AttachStdout": false,
-            "AttachStderr": false,
-            "Tty": false,
-            "OpenStdin": false,
-            "StdinOnce": false,
+            "AttachStdin": true,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "Tty": true,
+            "OpenStdin": true,
+            "StdinOnce": true,
             "Env": [
                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
             ],
@@ -151,28 +151,21 @@
                 "8.8.8.8"
             ],
             "ArgsEscaped": true,
-            "Image": "rodkin_ping_yaru",
+            "Image": "rodkin_ping_yaru:latest",
             "Volumes": null,
             "WorkingDir": "",
             "Entrypoint": null,
             "OnBuild": null,
-            "Labels": {
-                "com.docker.compose.config-hash": "484aec4443af365e863c28ee1c41f73e7bb614061b71f7845978edc68dcc92ae",
-                "com.docker.compose.container-number": "1",
-                "com.docker.compose.oneoff": "False",
-                "com.docker.compose.project": "docker-network-test",
-                "com.docker.compose.service": "ping",
-                "com.docker.compose.version": "1.23.2"
-            }
+            "Labels": {}
         },
         "NetworkSettings": {
             "Bridge": "",
-            "SandboxID": "8d9123d553c7a75f481d1a76f36940a53fb49b47cb661604f8de30a85b105d26",
+            "SandboxID": "9dbf4712e4fe98296b0c31503cc3def6d3bba836bc5c0c40c2126d8cb2f21b73",
             "HairpinMode": false,
             "LinkLocalIPv6Address": "",
             "LinkLocalIPv6PrefixLen": 0,
             "Ports": {},
-            "SandboxKey": "/var/run/docker/netns/8d9123d553c7",
+            "SandboxKey": "/var/run/docker/netns/9dbf4712e4fe",
             "SecondaryIPAddresses": null,
             "SecondaryIPv6Addresses": null,
             "EndpointID": "",
@@ -184,14 +177,11 @@
             "IPv6Gateway": "",
             "MacAddress": "",
             "Networks": {
-                "docker-network-test_default": {
+                "bridge": {
                     "IPAMConfig": null,
                     "Links": null,
-                    "Aliases": [
-                        "ping",
-                        "0186afa220d2"
-                    ],
-                    "NetworkID": "8963c746444ec7929615c408e7491a4cf637cb7a76847102fbe74ae918ca2d17",
+                    "Aliases": null,
+                    "NetworkID": "7008cd76ffff97592fa06aaadef67596da0077a6fb63d2c0edf4cbc9597e4447",
                     "EndpointID": "",
                     "Gateway": "",
                     "IPAddress": "",
